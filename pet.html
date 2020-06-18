@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet shop</title>
+</head>
+
+<body >
+    <div id="petview">List of Pets</div>
+    <div id="ownerList">List Of Owners</div>
+    <div id="add">
+        <h2>Add A New Owner</h2>
+      <form id='ownerForm'>
+
+        <label for="addFirstName">First Name: </label>
+        <input id="addFirstName" type= "text"  name="firstName">
+        <label for="addLastName">Last Name: </label>
+        <input id="addLastName" type= "text" name="lastName">
+        <label for="addTelephone">Telephone: </label>
+        <input id="addTelephone" type= "number" name= "telephone">
+        <label for="addAddress">Address: </label>
+        <input id="addAddress" type= "text"  name="address">
+        <label for="addCity">City: </label> 
+        <input id="addCity" type = "text" name="city">
+        <label for="addPet">Pet: </label>
+        <input id="addPet" type= "text" name="name">
+
+        <button id="addButton">Add</button>
+      </form>
+        
+       
+      </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
+    <script src="./pet.js"></script>
+</body>
+
+</html>
